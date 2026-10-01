@@ -4,7 +4,7 @@
   "tagline": "Fourth-year Information Technology student looking for an internship where I can build real web projects and learn from experienced developers.",
   "photo": "images/mypicture.jpg",
   "about": "I am a Bachelor of Science in Information Technology student at Nueva Vizcaya State University. I enjoy turning ideas into simple, working web pages with HTML, CSS, and JavaScript, and I am ready to learn more on the job.",
-  "github": "https://github.com/your-username",
+  "github": "https://github.com/Mhelvin-29",
   "education": [
     {
       "level": "College",
@@ -53,7 +53,7 @@
         "CSS",
         "JavaScript"
       ],
-      "link": "https://github.com/your-username/student-grade-tracker"
+      "link": "https://github.com/Mhelvin-29e/student-grade-tracker"
     },
     {
       "title": "Barangay Events Calendar",
@@ -64,7 +64,7 @@
         "JavaScript",
         "JSON"
       ],
-      "link": "https://github.com/your-username/barangay-events-calendar"
+      "link": "https://github.com/Mhelvin-29e/barangay-events-calendar"
     },
     {
       "title": "To-Do List App",
@@ -74,7 +74,7 @@
         "CSS",
         "JavaScript"
       ],
-      "link": "https://github.com/your-username/todo-list-app"
+      "link": "https://github.com/Mhelvin-29e/todo-list-app"
     },
     {
       "title": "Personal Webpage",
@@ -83,7 +83,7 @@
         "HTML",
         "CSS"
       ],
-      "link": "https://github.com/your-username/personal-webpage"
+      "link": "https://github.com/Mhelvin-29e/personal-webpage"
     }
   ],
   "contact": {
