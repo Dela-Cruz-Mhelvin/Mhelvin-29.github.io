@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Student Grade Tracker",
+    "description": "A web app where students enter their subjects and grades and see their average update instantly.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "role": "Developer: wrote the page structure, styling, and the average calculation.",
+    "screenshot": "student-grade-tracker.png",
+    "link": "https://github.com/Mhelvin-29/student-grade-tracker"
+  },
+  {
+    "title": "Barangay Events Calendar",
+    "description": "A simple calendar page that lists upcoming community events and loads them from a JSON file.",
+    "technologies": ["HTML", "CSS", "JavaScript", "JSON"],
+    "role": "Developer: designed the layout and loaded the event list with fetch().",
+    "screenshot": "barangay-events-calendar.png",
+    "link": "https://github.com/Mhelvin-29/barangay-events-calendar"
+  },
+  {
+    "title": "To-Do List App",
+    "description": "A task list where you can add, check off, and delete tasks, with filters for done and pending items.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "role": "Developer: built the add, complete, delete and filter features.",
+    "screenshot": "todo-list-app.png",
+    "link": "https://github.com/Mhelvin-29/todo-list-app"
+  },
+  {
+    "title": "Personal Webpage",
+    "description": "My first webpage, with my profile, hobbies, family photo, and favorite videos.",
+    "technologies": ["HTML", "CSS"],
+    "role": "Solo developer: wrote all the content and styling for a class activity.",
+    "screenshot": "personal-webpage.png",
+    "link": "https://github.com/Mhelvin-29/personal-webpage"
+  }
+]

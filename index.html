@@ -3,79 +3,180 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Mhelvin A. Dela Cruz, BSIT student applying for an internship.">
   <title>Mhelvin A. Dela Cruz | Internship Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- MENU -->
+  <!-- NAVIGATION -->
   <header class="site-header">
     <a class="brand" href="#home">Mhelvin Dela Cruz</a>
     <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainMenu">Menu</button>
     <nav id="mainMenu" class="main-menu" aria-label="Main menu">
-      <a href="#home" data-section="home">Home</a>
-      <a href="#education" data-section="education">Educational Background</a>
-      <a href="#skills" data-section="skills">Skills</a>
-      <a href="#projects" data-section="projects">Projects</a>
-      <a href="#contact" data-section="contact">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
 
     <!-- HOME: picture on the left, name on the right -->
-    <section id="home" class="page">
-      <div class="hero">
-        <img id="photo" class="hero-photo" src="images/mypicture.jpg" alt="Photo of Mhelvin A. Dela Cruz">
+    <section id="home" class="section">
+      <div class="container hero">
+        <img class="hero-photo" src="images/mypicture.jpg" alt="Photo of Mhelvin A. Dela Cruz">
         <div class="hero-text">
           <p class="hello">Hi, I am</p>
-          <h1 id="name">Mhelvin A. Dela Cruz</h1>
-          <p id="role" class="role">BSIT Student | Internship Applicant</p>
-          <p id="tagline" class="tagline"></p>
+          <h1>Mhelvin A. Dela Cruz</h1>
+          <p class="tagline">Aspiring web developer and BSIT student</p>
+          <p class="intro">I am looking for an internship where I can build real web projects and learn from experienced developers. I enjoy turning ideas into simple, working web pages.</p>
           <div class="actions">
-            <a class="btn primary" href="#projects" data-section="projects">See my projects</a>
-            <a class="btn" href="#contact" data-section="contact">Contact me</a>
+            <a class="btn primary" href="#projects">View my projects</a>
+            <a class="btn" href="#contact">Contact me</a>
           </div>
         </div>
       </div>
-      <div class="panel">
-        <h2>About me</h2>
-        <p id="about"></p>
-      </div>
     </section>
 
-    <!-- EDUCATIONAL BACKGROUND -->
-    <section id="education" class="page">
-      <h2 class="page-title">Educational Background</h2>
-      <div id="educationList" class="timeline"></div>
+    <!-- ABOUT -->
+    <section id="about" class="section alt">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+
+        <div class="panel">
+          <h3>Biography</h3>
+          <p>I am a Bachelor of Science in Information Technology student at Nueva Vizcaya State University. I started with a simple personal webpage and now build small projects with HTML, CSS, and JavaScript. I like learning by making things and fixing my own mistakes.</p>
+        </div>
+
+        <div class="panel">
+          <h3>Educational Background</h3>
+          <ul class="edu-list">
+            <li><b>College:</b> Nueva Vizcaya State University, Bachelor of Science in Information Technology (expected graduation: 2027)</li>
+            <li><b>Senior High School:</b> Lamo National High School</li>
+            <li><b>High School:</b> Lamo National High School</li>
+            <li><b>Elementary:</b> Mabasa Elementary School</li>
+          </ul>
+        </div>
+
+        <div class="two-col">
+          <div class="panel">
+            <h3>Career Goals</h3>
+            <p>I want to complete an internship in web development, grow my skills with real tasks, and become a full-stack developer who builds useful tools for my community.</p>
+          </div>
+          <div class="panel">
+            <h3>Interests</h3>
+            <ul class="tag-list">
+              <li>Reading</li>
+              <li>Anime</li>
+              <li>K-drama</li>
+              <li>Movies</li>
+              <li>Online games</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- SKILLS -->
-    <section id="skills" class="page">
-      <h2 class="page-title">Skills</h2>
-      <div id="skillsList" class="skills"></div>
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="panel">
+            <h3>Programming Languages</h3>
+            <ul class="tag-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Tools and Technologies</h3>
+            <ul class="tag-list">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>GitHub Desktop</li>
+              <li>VS Code</li>
+              <li>JSON</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Technical Skills</h3>
+            <ul class="tag-list">
+              <li>Responsive web design</li>
+              <li>Building web pages</li>
+              <li>Fetching data from APIs</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Soft Skills</h3>
+            <ul class="tag-list">
+              <li>Teamwork</li>
+              <li>Communication</li>
+              <li>Time management</li>
+              <li>Willingness to learn</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- PROJECTS -->
-    <section id="projects" class="page">
-      <h2 class="page-title">Projects</h2>
-      <div id="projectsList" class="projects"></div>
-      <p class="github-line">More of my code is on <a id="githubProfile" href="#" target="_blank" rel="noopener">my GitHub profile</a>.</p>
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p id="projectsMessage" class="message" hidden></p>
+        <div id="projectsList" class="projects"></div>
+
+        <h3 class="sub-title">Latest GitHub Repositories</h3>
+        <p id="reposMessage" class="message">Loading repositories...</p>
+        <ul id="reposList" class="repos"></ul>
+      </div>
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="page">
-      <h2 class="page-title">Contact Information</h2>
-      <div class="panel contact">
-        <p><b>Name:</b> <span id="contactName"></span></p>
-        <p><b>Email:</b> <a id="contactEmail" href="#"></a></p>
-        <p><b>Mobile:</b> <span id="contactMobile"></span></p>
-        <p><b>Address:</b> <span id="contactAddress"></span></p>
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="two-col">
+
+          <div class="panel">
+            <h3>Get in touch</h3>
+            <ul class="contact-links">
+              <li><b>Email:</b> <a href="mailto:delacruzmhelvin9@gmail.com">delacruzmhelvin9@gmail.com</a></li>
+              <li><b>GitHub:</b> <a href="https://github.com/Mhelvin-29" target="_blank" rel="noopener">github.com/Mhelvin-29</a></li>
+              <li><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener">linkedin.com/in/your-linkedin-username</a></li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Send a message</h3>
+            <form id="contactForm" novalidate>
+              <label for="formName">Name</label>
+              <input type="text" id="formName" name="name" autocomplete="name">
+              <span class="error" id="nameError" aria-live="polite"></span>
+
+              <label for="formEmail">Email</label>
+              <input type="email" id="formEmail" name="email" autocomplete="email">
+              <span class="error" id="emailError" aria-live="polite"></span>
+
+              <label for="formMessage">Message</label>
+              <textarea id="formMessage" name="message" rows="5"></textarea>
+              <span class="error" id="messageError" aria-live="polite"></span>
+
+              <button type="submit" class="btn primary">Send</button>
+              <p id="formThanks" class="thanks" hidden>Thank you for your message! I will get back to you soon.</p>
+            </form>
+          </div>
+
+        </div>
       </div>
-      <p class="thanks">Thank you for visiting my portfolio. I would be glad to hear from you about internship opportunities.</p>
     </section>
 
   </main>
@@ -84,6 +185,9 @@
     <p>&copy; <span id="year"></span> Mhelvin A. Dela Cruz</p>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- Back to top (my own feature) -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
