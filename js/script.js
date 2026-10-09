@@ -1,5 +1,5 @@
 // Change this to your GitHub username
-const GITHUB_USERNAME = "Mhelvin-29";
+const GITHUB_USERNAME = "Dela-Cruz-Mhelvin";
 
 // ---------- Menu (mobile) ----------
 const menu = document.getElementById("mainMenu");

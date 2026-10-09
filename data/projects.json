@@ -5,7 +5,7 @@
     "technologies": ["HTML", "CSS", "JavaScript"],
     "role": "Developer: wrote the page structure, styling, and the average calculation.",
     "screenshot": "student-grade-tracker.png",
-    "link": "https://github.com/Mhelvin-29/student-grade-tracker"
+    "link": "https://github.com/Dela-Cruz-Mhelvin/student-grade-tracker"
   },
   {
     "title": "Barangay Events Calendar",
@@ -13,7 +13,7 @@
     "technologies": ["HTML", "CSS", "JavaScript", "JSON"],
     "role": "Developer: designed the layout and loaded the event list with fetch().",
     "screenshot": "barangay-events-calendar.png",
-    "link": "https://github.com/Mhelvin-29/barangay-events-calendar"
+    "link": "https://github.com/Dela-Cruz-Mhelvin/barangay-events-calendar"
   },
   {
     "title": "To-Do List App",
@@ -21,7 +21,7 @@
     "technologies": ["HTML", "CSS", "JavaScript"],
     "role": "Developer: built the add, complete, delete and filter features.",
     "screenshot": "todo-list-app.png",
-    "link": "https://github.com/Mhelvin-29/todo-list-app"
+    "link": "https://github.com/Dela-Cruz-Mhelvin/todo-list-app"
   },
   {
     "title": "Personal Webpage",
@@ -29,6 +29,6 @@
     "technologies": ["HTML", "CSS"],
     "role": "Solo developer: wrote all the content and styling for a class activity.",
     "screenshot": "personal-webpage.png",
-    "link": "https://github.com/Mhelvin-29/personal-webpage"
+    "link": "https://github.com/Dela-Cruz-Mhelvin/personal-webpage"
   }
 ]
